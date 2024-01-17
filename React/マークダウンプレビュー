@@ -1,0 +1,27 @@
+GitHub Copilot: マークダウンのプレビュー機能を追加するには、`react-markdown`というライブラリを使用します。このライブラリを使用すると、マークダウン形式のテキストをHTMLに変換して表示することができます。
+
+まず、`react-markdown`をプロジェクトにインストールします。
+
+```bash
+npm install react-markdown
+```
+
+次に、以下のようにコードを修正してマークダウンのプレビュー機能を追加します。
+
+```javascript
+import ReactMarkdown from 'react-markdown';
+
+// ...
+
+{/* コピーされた週報 */}
+<div className='mt-4'>
+  <h2>コピーされた週報</h2>
+  <ReactMarkdown>{finalReport}</ReactMarkdown>
+</div>
+```
+
+この修正により、`finalReport`の内容がマークダウン形式として解釈され、HTMLとして表示されます。
+
+
+
+なお太字**とか改行が機能しないのであまり使えない模様(体感)
