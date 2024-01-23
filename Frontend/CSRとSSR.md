@@ -56,3 +56,4 @@ Vercel
 VercelはNext.jsを開発した。
 Next.jsとの相性が良いらしい。
 
+CSRはページごとのOGPが作れない。
