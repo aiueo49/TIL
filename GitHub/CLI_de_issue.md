@@ -27,6 +27,22 @@ gh issue list
 gh issue view 1
 ```
 
+### issue1にコメントする
+
+```
+gh issue comment 1 --body "これはコメントです。"
+```
+
+```
+gh issue comment 1
+```
+このあとnanoを開いてコメントをすることも可能。
+
+### issue1を閉じる
+
+```
+gh issue close 1
+```
 
 
 # 参考サイト
