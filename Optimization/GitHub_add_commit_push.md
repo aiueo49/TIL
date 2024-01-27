@@ -18,3 +18,35 @@ git push
 自動化までは行かずとも、開発効率をあげるという意味で今回一緒に覚えておけばよかろう。
 
 
+# 実装
+~/.zshrcに追記
+※追記したらターミナルをsourceするか、別で新しく開く必要あり。
+
+```bash
+# add .からpushまでをマクロで定義
+gish() {
+    # 全てステージにのせる
+    git add .
+    # コミット対象のファイルを確認
+    git status
+    read "yesno?Commit with this content. OK? (y/N): "
+    case "$yesno" in
+        # yes
+        [yY]*)
+            read "msg?Input Commit Message: "
+            git commit -m "$msg"
+            CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+            git push origin "$CURRENT_BRANCH"
+            ;;
+        # no
+        *)
+            echo "Quit."
+            ;;
+    esac
+}
+```
+
+# 所感
+使う時はgishと打つだけです。
+ちょー時短になりました。
+
