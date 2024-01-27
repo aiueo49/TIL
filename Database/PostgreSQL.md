@@ -1,5 +1,7 @@
 # 参考サイト
 [PostgreSQLとは？基礎知識から実際の使い方まで徹底解説](https://udemy.benesse.co.jp/development/postgresql.html)
+[【PostgreSQLとは？】入門者向けに特徴をわかりやすく解説](https://www.fujitsu.com/jp/products/software/resources/feature-stories/postgres/what-is-postgresql/)
+
 
 # PostgreSQL（ポストグレスキューエル）とは？
 
