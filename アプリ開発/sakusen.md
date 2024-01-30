@@ -38,11 +38,15 @@ PageSpeed Insightsで表示速度を測定する
 
 ### [Dockerを使ったRailsの環境構築方法](https://school.runteq.jp/v2/mypage/helps/articles/build_docker_environment_rails?gretel_word=Docker)
 
+### [Railsにesbuildを使ってReactを導入する(Dockerで構築)](https://zenn.dev/naoki0722/articles/272ef57c6dafba)
+
 
 
 ## 2. デプロイ
 
 ### [Fly公式日本語ガイド](https://fly.io/docs/rails/getting-started/)
+
+### [Herokuの代替として注目のFly.ioでアプリケーションをデプロイする](https://zenn.dev/hokawa/articles/65ddcd9974448c)
 
 
 
@@ -53,6 +57,8 @@ PageSpeed Insightsで表示速度を測定する
 デプロイの自動化はやる。
 
 ### [【入門】GitHub Actionsとは？概要やメリット、使用例まとめ](https://www.kagoya.jp/howto/it-glossary/develop/githubactions/)
+
+### [GitHub ActionsでFly.ioへのデプロイを自動化する手順](https://zenn.dev/hokawa/articles/956910030b56f2)
 
 
 
