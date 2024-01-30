@@ -1,6 +1,5 @@
 PF制作におけるメモ。
 
-
 # 環境
 
 Back  : Rails
@@ -57,6 +56,7 @@ PageSpeed Insightsで表示速度を測定する
 
 ### [Railsにesbuildを使ってReactを導入する(Dockerで構築)](https://zenn.dev/naoki0722/articles/272ef57c6dafba)
 
+### [ForkしてRails + Docker](https://zenn.dev/farstep/books/7f169cdc597ada/viewer/5ff63c)
 
 
 ## 2. デプロイ
@@ -70,6 +70,8 @@ PageSpeed Insightsで表示速度を測定する
 ## 3. CI/CD
 
 テストコードの自動化もやりたいけどテストコードを作るのが億劫だ。
+Robocopの自動化のことなのかなテストコードって。
+そうならばCI入れたいけど。
 
 デプロイの自動化はやる。
 
