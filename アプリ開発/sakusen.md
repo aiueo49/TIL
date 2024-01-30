@@ -33,12 +33,26 @@ metaタグを設定
 PageSpeed Insightsで表示速度を測定する
 
 
+
 ## 1. 環境構築
 
 ### [Dockerを使ったRailsの環境構築方法](https://school.runteq.jp/v2/mypage/helps/articles/build_docker_environment_rails?gretel_word=Docker)
 
 
 
+## 2. デプロイ
+
+### [Fly公式日本語ガイド](https://fly.io/docs/rails/getting-started/)
+
+
+
+## 3. CI/CD
+
+テストコードの自動化もやりたいけどテストコードを作るのが億劫だ。
+
+デプロイの自動化はやる。
+
+### [【入門】GitHub Actionsとは？概要やメリット、使用例まとめ](https://www.kagoya.jp/howto/it-glossary/develop/githubactions/)
 
 
 
