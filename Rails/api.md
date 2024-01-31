@@ -5,6 +5,8 @@
 
 ## [Railsで超簡単API](https://qiita.com/k-penguin-sato/items/adba7a1a1ecc3582a9c9)
 
+## [RailsでWeb APIを作成する方法とメリット🤔💭](https://qiita.com/digitter/items/53f83ce50036b2773d55)
+
 
 # Rails + React 構成のやり方をググっている時のこと
 
