@@ -7,13 +7,17 @@ rails new の時のオプションにどんなものがあるのか気になっ�
 # 一部抜粋
 
 - -d, –database=DATABASE
-	データベースの種類
+
+データベースの種類
 
 - –api
-	APIのみのアプリケーションを生成
+
+APIのみのアプリケーションを生成
 
 - –css=CSS
-	CSSプロセッサを選択
+
+CSSプロセッサを選択
 
 - -j, –javascript=JAVASCRIPT
-    組み込むJavaScriptライブラリーを指定
+
+組み込むJavaScriptライブラリーを指定
